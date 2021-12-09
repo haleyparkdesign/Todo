@@ -1,5 +1,10 @@
 package com.example.demo.dto;
 
-public class TestRequestBodyDTO {
+import lombok.Data;
 
+@Data
+
+public class TestRequestBodyDTO {
+	private int id;
+	private String message;
 }
